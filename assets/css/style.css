@@ -1,0 +1,41 @@
+body{
+  background-color: #f7f7f7;
+}
+p{
+  font-family: Verdana;
+}
+#naslov{
+  color:blue;
+  background-color: #f7f7f7;
+  width: 12%;
+  height: 40px;
+  border-style: inset;
+}
+#iskanje{
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+}
+#iskanje:focus{
+  height: 25px;
+  width: 200px;
+  border-radius: 10px;
+}
+.q{
+ color: red;
+}
+img:hover {
+  outline: 2px solid black;
+  /*height: 480px;
+  width: 720px;*/
+}
+#knof:hover{
+  height:240px;
+  width:360px;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  font-size: 80px;
+  overflow: scroll;
+  font-family: fantasy;
+}
